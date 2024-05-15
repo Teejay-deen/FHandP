@@ -1,9 +1,23 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/common/Header/Header";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "../home/Home";
 
 const Pages = () => {
   return (
-    <div>Pages</div>
-  )
-}
+    <div>
+      {/* <Router>
+        <Header />
+        <Switch>
 
-export default Pages
+          <Route exact path="/" element={Home} />
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+      </Router> */}
+    </div>
+  );
+};
+
+export default Pages;
