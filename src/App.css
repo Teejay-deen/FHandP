@@ -9,4 +9,40 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.container{
+  max-width: 80%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  border-radius: 15px;
+  padding: 17px 30px;
+  background-color: rgb(119, 119, 173);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button i{
+  margin-right: 5px;
 }
