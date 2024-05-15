@@ -1,9 +1,11 @@
-import React from "react";
-import "./header.css"
+import React, { useState } from "react";
+import "./header.css";
 import { Link } from "react-router-dom";
 import { nav } from "../../data/Data";
 
 const Header = () => {
+  const [navList, setNavList] = useState(false);
+
   return (
     <div>
       <header>
@@ -13,7 +15,7 @@ const Header = () => {
           </div>
 
           <div className="nav">
-            <ul className="flex">
+            <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
                   <Link to={list.path}>{list.text}</Link>
@@ -32,8 +34,12 @@ const Header = () => {
           </div>
 
           <div className="toggle">
-            <button>
+            <button onClick={() => setNavList(!navList)}>
+              {navList ? (
+                <i className="fa fa-times"></i>
+              ) : (
                 <i className="fa fa-bars"></i>
+              )}
             </button>
           </div>
         </div>
