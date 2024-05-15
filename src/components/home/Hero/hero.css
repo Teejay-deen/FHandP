@@ -60,3 +60,23 @@ form .box:nth-child(1){
 form h4 {
     font-weight: 500;
 }
+
+@media screen and (max-width:768px) {
+    .hero .container{
+        padding-top: 30px;
+     }
+
+
+     form{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     form .box{
+        border-left: none;
+     }
+
+     form input{
+        width: 100%;
+     }
+}
