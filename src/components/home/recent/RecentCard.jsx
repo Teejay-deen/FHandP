@@ -6,13 +6,14 @@ const RecentCard = () => {
     <div>
       <div className="content grid3 mtop">
         {list.map((value, index) => {
-          const { cover, category, location, name, price, type } = value;
+          const { cover, category, location, star, name, price, type } = value;
           return (
             <div className="box shadow" key={index}>
               <div className="img">
                 <img src={cover} alt="" />
               </div>
 
+              
               <div className="text">
                 <div className="category flex">
                   <span
@@ -31,6 +32,10 @@ const RecentCard = () => {
 
                 <p>
                     <i className=" fa fa-location-dot"></i>{location}
+                </p>
+
+                <p>
+                    <i className="fa fa-star">{star}</i>
                 </p>
               </div>
               <div className="button flex">
