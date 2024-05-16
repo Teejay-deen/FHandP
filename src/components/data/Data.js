@@ -82,6 +82,7 @@ export const list = [
     category: "For Rent",
     price: "$3,700",
     type: "Apartment",
+    star: " 45"
   },
   {
     id: 2,
@@ -91,6 +92,7 @@ export const list = [
     category: "For Sale",
     price: "$9,750",
     type: "Condos",
+    star: " 42"
   },
   {
     id: 3,
@@ -100,6 +102,7 @@ export const list = [
     category: "For Rent",
     price: "$5,860",
     type: "Offices",
+    star: " 50"
   },
   {
     id: 4,
@@ -109,6 +112,7 @@ export const list = [
     category: "For Sale",
     price: "$7,540",
     type: "Homes & Villas",
+    star: " 45"
   },
   {
     id: 5,
@@ -118,6 +122,7 @@ export const list = [
     category: "For Rent",
     price: "$4,850",
     type: "Commercial",
+    star: " 80"
   },
   {
     id: 6,
@@ -127,6 +132,7 @@ export const list = [
     category: "For Sale",
     price: "$2,742",
     type: "Apartment",
+    star: " 9"
   },
 ];
 export const awards = [
