@@ -17,8 +17,8 @@ const Home = () => {
         <Featured />
         <Recent />
         <Location />
-        <Testimonial />
         <Awards />
+        <Testimonial />
         <Team />
     </div>
   )

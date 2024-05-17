@@ -6,7 +6,7 @@ import { location } from '../../data/Data'
 const Location = () => {
   return (
     <div>
-      <section className="location padding">
+      <section className="location padding background">
         <div className="container">
           <Heading title="Explore Cities" subtitle="Browse | Buy | Go" />
 
