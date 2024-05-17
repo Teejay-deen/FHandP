@@ -19,7 +19,7 @@ const Team = () => {
                 <div className="box" key={index}>
                   <button className="btn3">{items.list} Listing</button>
                   <div className="details">
-                    <div className="img">
+                    <div className="img1">
                       <img src={items.cover} alt="" />
                       <i className="fa fa-circle-check"></i>
                     </div>

@@ -73,6 +73,37 @@ export const featured = [
     total: "80 Property",
   },
 ];
+
+export const AboutImg =[
+  {
+    id: 1,
+    cover: "../images/list/p-1.png",
+    name: "Services",
+    type: "Business Development",
+   
+  },
+  {
+    id: 2,
+    cover: "../images/list/p-2.png",
+    name: "Services",
+    type: "Fianancial Reporting",
+
+  },
+  {
+    id: 3,
+    cover: "../images/list/p-7.png",
+    name: "Services",
+    type: "Capital Improvement",
+
+  },
+  {
+    id: 4,
+    cover: "../images/list/p-4.png",
+    name: "Services",
+    type: " Property Management",
+  },
+]
+
 export const list = [
   {
     id: 1,
@@ -182,6 +213,21 @@ export const testimonials = [
   },
 ];
 
+
+export const city = [
+  {
+    id: 1,
+    name: "Services",
+    type:"Financial Real Estate",
+    cover: "./images/location/city-1.png",
+  },
+  {
+    id: 2,
+    name: "Services",
+    type:"Recover Assets Value",
+    cover: "./images/location/city-2.png",
+  },
+]
 
 export const location = [
   {

@@ -20,7 +20,7 @@ const Location = () => {
                     <p>
                       <label htmlFor="">{items.Villas}</label>
                       <label htmlFor="">{items.Offices}</label>
-                      <label htmlFor="">{items. Apartments}</label>
+                      <label htmlFor="">{items.Apartments}</label>
                     </p>
                   </div>
                 </div>
