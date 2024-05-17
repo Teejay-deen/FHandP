@@ -82,7 +82,7 @@ export const list = [
     category: "For Rent",
     price: "$3,700",
     type: "Apartment",
-    star: " 45"
+    star: " 45",
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ export const list = [
     category: "For Sale",
     price: "$9,750",
     type: "Condos",
-    star: " 42"
+    star: " 42",
   },
   {
     id: 3,
@@ -102,7 +102,7 @@ export const list = [
     category: "For Rent",
     price: "$5,860",
     type: "Offices",
-    star: " 50"
+    star: " 50",
   },
   {
     id: 4,
@@ -112,7 +112,7 @@ export const list = [
     category: "For Sale",
     price: "$7,540",
     type: "Homes & Villas",
-    star: " 45"
+    star: " 45",
   },
   {
     id: 5,
@@ -122,7 +122,7 @@ export const list = [
     category: "For Rent",
     price: "$4,850",
     type: "Commercial",
-    star: " 80"
+    star: " 80",
   },
   {
     id: 6,
@@ -132,7 +132,7 @@ export const list = [
     category: "For Sale",
     price: "$2,742",
     type: "Apartment",
-    star: " 9"
+    star: " 9",
   },
 ];
 export const awards = [
@@ -157,6 +157,32 @@ export const awards = [
     name: "New Listing Every Week",
   },
 ];
+
+export const testimonials = [
+  {
+    icon: <i class="fa fa-quote-left"></i>,
+    name: "MARY OLUSOLA",
+    message:
+      "I have known Fhandp for few years. My husband and I have had the pleasure of working with Fhand to sell one house and purchase two. Fhandp is a true professional. They is bright, thorough, and honest as the day is long. Through the years, Fhand has become a close and trusted friend. I would not hesitate to recommend them.",
+      cover: "./images/testimonial/mary.jpg",
+  },
+  {
+    icon: <i class="fa fa-quote-left"></i>,
+    name: "TOPE AYENI",
+    message:
+      "We had a very positive experience with Fhandp – both in the sale of our previous home, and the search for & purchase of our new home. They remained calm and confident through all of the bumps we encountered along the way, and in turn we stayed positive through the entire process – right down to their helping us finish moving our things out of our house just minutes before closing. I would definitely recommend Fhandp to anyone looking to buy or sell a home.",
+      cover: "./images/testimonial/tope.jpg",
+  },
+  {
+    icon: <i class="fa fa-quote-left"></i>,
+    name: "ANTHONY UMAR",
+    message:
+      "I recently sold a house with Fhandp , I felt 110% confident by partnering with them. They was candid, provided great feedback, helped explain clearly all details and managed the actual sale negotiation brilliantly. In addition, Fhandp was extremely responsive to every one of my questions, no matter how small. As I move forward to now BUY my next house, I am extremely certain Fhandp will be the right partner to help me navigate this process.",
+      cover: "./images/testimonial/umar.jpg",
+  },
+];
+
+
 export const location = [
   {
     id: 1,
