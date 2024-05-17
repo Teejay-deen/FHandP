@@ -10,9 +10,6 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route path="/about">
-              <About />
-            </Route> */}
         </Switch>
       </Router>
     </div>

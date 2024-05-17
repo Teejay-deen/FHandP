@@ -4,6 +4,9 @@ import Scammed from './scammed/Scammed'
 import Featured from './Featured/Featured'
 import Recent from './recent/Recent'
 import Awards from './Awards/Awards'
+import Location from './Location/Location'
+import Team from './team/Team'
+
 
 const Home = () => {
   return (
@@ -13,6 +16,8 @@ const Home = () => {
         <Featured />
         <Recent />
         <Awards />
+        <Location />
+        <Team />
     </div>
   )
 }
