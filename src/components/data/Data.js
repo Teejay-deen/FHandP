@@ -16,11 +16,11 @@ export const nav = [
     path: "/blog",
   },
   {
-    text: "pricing",
-    path: "/pricing",
+    text: "Agent",
+    path: "/agent",
   },
   {
-    text: "contact",
+    text: "Contact Us",
     path: "/contact",
   },
 ];
