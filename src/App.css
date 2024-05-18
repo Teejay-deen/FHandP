@@ -34,8 +34,8 @@ ul{
 }
 
 button{
-  border-radius: 15px;
-  padding: 17px 30px;
+  border-radius: 10px;
+  padding: 10px 10px;
   background-color: rgb(119, 119, 173);
   border: none;
   color: #fff;
@@ -77,10 +77,12 @@ button i{
 }
 
 .grid5{
-  display: flex;
-  justify-content: space-between;
-  align-items: center ;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
 }
+
+
 
 label{
   color: #2d3954;
@@ -146,7 +148,7 @@ img{
   left: 0;
   z-index: -1;
   object-fit: cover;
-  
+
 }
 
 .back ::after{
@@ -163,7 +165,7 @@ img{
 }
 
 .back .container {
-  color: #324aa3;
+  color: rgb(14, 17, 15);
   padding: 80px 0;
 }
 
@@ -173,5 +175,24 @@ img{
 }
 
 .mb{
-  margin-bottom: 80%;
+  margin-bottom: 80px;
+}
+
+
+@media screen and (max-width:768px) {
+  .grid3, .grid5{
+     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading {
+    width: 100%; 
+  }
+
+  .container{
+    max-width: 90%;
+  }
+
+  .back, .back::after, .back img{
+    height: 30vh;
+  }
 }
