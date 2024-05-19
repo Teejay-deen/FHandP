@@ -15,6 +15,7 @@ body{
 .container{
   max-width: 80%;
   margin: auto;
+
 }
 
 .flex {
@@ -41,6 +42,7 @@ button{
   color: #fff;
   cursor: pointer;
   font-weight: bold;
+  
 }
 
 button i{
