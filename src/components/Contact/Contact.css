@@ -25,6 +25,9 @@
   padding: 0 120px;
 }
 
+.heading{
+  margin-top: 10px;
+}
 
 @media screen and (max-width:768px) {
     .contact h4{
