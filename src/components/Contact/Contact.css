@@ -20,6 +20,12 @@
     padding: 30px;
 }
 
+.map-section{
+  margin-top: 30px;
+  padding: 0 120px;
+}
+
+
 @media screen and (max-width:768px) {
     .contact h4{
         width: 100%;
