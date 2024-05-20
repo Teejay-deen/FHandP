@@ -449,7 +449,7 @@ export const footer = [
       { list: "Service Page" },
       { list: "Property Page" },
       { list: "Contact Page" },
-      { list: "Single Blog" },
+      { list: "Single Blogs" },
     ],
   },
   {
