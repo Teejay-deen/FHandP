@@ -34,7 +34,6 @@ const Contact = () => {
 
         <div className="map-section">
           <div className="map-frame">
-          
               <iframe
                 width="100%"
                 height="600"
@@ -46,7 +45,6 @@ const Contact = () => {
               >
                 <a href="https://www.gps.ie/">gps tracker sport</a>
               </iframe>
-            
           </div>
         </div>
       </section>
