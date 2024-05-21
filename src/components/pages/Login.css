@@ -1,0 +1,49 @@
+.hero1 {
+  background: url("../../../public/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  width: 100%;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  padding-right: 80px;
+}
+
+.flex1 .logo{
+  display: flex;
+  margin: 10px 40px 60px 60px;
+  padding-left: 40px;
+  justify-content: center;
+}
+
+.flex1 .logo img{
+   color: #fff;
+  }
+
+.login input .check {
+  width: 18px;
+  height: 18px;
+}
+
+.login input {
+  display: flex;
+  padding: 15px;
+  height: 48px;
+  width: 485px;
+  border-radius: 8px;
+  border: 0.5px solid grey;
+  margin-bottom: 20px;
+}
+
+.flex1 .logo {
+  top: 465px;
+  width: 130px;
+  height: 95px;
+}

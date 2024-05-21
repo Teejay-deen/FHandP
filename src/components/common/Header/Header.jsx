@@ -6,6 +6,7 @@ import { nav } from "../../data/Data";
 const Header = () => {
   const [navList, setNavList] = useState(false);
 
+
   return (
     <div>
       <header>
@@ -28,19 +29,21 @@ const Header = () => {
             <h4>
               <span>2</span> My List
             </h4>
+            <Link to='/login'>
             <button className="btn1">
               <i className=" fa fa-sign-out"></i> Sign In
             </button>
+            </Link>
           </div>
 
           <div className="toggle">
-            <button onClick={() => setNavList(!navList)}>
-              {navList ? (
-                <i className="fa fa-times"></i>
-              ) : (
-                <i className="fa fa-bars"></i>
-              )}
-            </button>
+              <button  onClick={() => setNavList(!navList)}>
+                {navList ? (
+                  <i className="fa fa-times"></i>
+                ) : (
+                  <i className="fa fa-bars"></i>
+                )}
+              </button>
           </div>
         </div>
       </header>
