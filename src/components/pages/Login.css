@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 110vh;
+  height: 140vh;
   width: 100%;
 }
 .flex1 {
@@ -23,6 +23,12 @@
   justify-content: center;
 }
 
+.checkbox{
+  display: flex;
+  justify-content: left;
+  padding: 2px;
+}
+
 .flex1 .logo img{
    color: #fff;
   }
@@ -32,14 +38,33 @@
   height: 18px;
 }
 
+.continuebtn{
+  margin: 10px 10px;
+  width: 485px;
+}
+
+.account a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .login input {
   display: flex;
   padding: 15px;
-  height: 48px;
+  height: 8px;
   width: 485px;
+  font-size: 12px;
   border-radius: 8px;
   border: 0.5px solid grey;
   margin-bottom: 20px;
+}
+
+.login, .shadow, .input{
+  padding: 10px 30px;
+}
+
+::placeholder{
+  color: rgb(90, 9, 190);
 }
 
 .flex1 .logo {
