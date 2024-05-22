@@ -29,12 +29,18 @@ const Login = () => {
 
               <div className="policy">
                 {/* <input className="checkbox" type="checkbox" /> */}
-                <span>I have read and agree to the <span>privacy policy</span> and <span>term of condition</span></span>
+                <span>
+                  I have read and agree to the <span>privacy policy</span> and{" "}
+                  <span>term of condition</span>
+                </span>
               </div>
-              <button className="continuebtn">Continue</button>
-              <p className="account">
-                Already have an account ? <a href="">Sign in</a>
-              </p>
+
+              <div className="btn-flex">
+                <button className="continuebtn">Continue</button>
+                <p className="account">
+                  Already have an account ? <a href="">Sign in</a>
+                </p>
+              </div>
             </form>
           </div>
         </div>
