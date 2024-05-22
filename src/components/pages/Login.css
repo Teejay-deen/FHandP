@@ -44,6 +44,11 @@
   align-items: center;
 }
 
+.span1{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .continuebtn{
   margin: 20px 10px;
   width: 485px;
@@ -64,6 +69,17 @@
   font-size: 12px;
   border-radius: 8px;
   border: 0.5px solid grey;
+  margin-bottom: 20px;
+}
+
+.login-title h2{
+  font-size: 30px;
+  font-weight: 600;
+ margin-bottom: 10px;
+}
+
+.login-title p{
+  color: grey;
   margin-bottom: 20px;
 }
 
