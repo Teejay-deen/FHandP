@@ -11,6 +11,11 @@
     display: inline-block;
 }
 
+br{
+    border: 3px solid yellow;
+    border-top: 30px solid red;
+}
+
 .recent .category i{
     font-size: 20px;
     color: #bec7d8;

@@ -44,9 +44,48 @@
   align-items: center;
 }
 
+.googlebtn{
+  
+  margin: 20px 10px;
+  width: 485px;
+  background-color: #F8F9FD;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+.facebookbtn{
+  
+  margin: 10px 10px;
+  width: 485px;
+  background-color: #F8F9FD;
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  font-weight: 400;
+}
+
+.applebtn{
+  margin: 10px 10px;
+  width: 485px;
+  background-color: #F8F9FD;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+
+
 .span1{
   text-decoration: underline;
   cursor: pointer;
+}
+
+.flex2{
+  display: flex;
+  justify-content: end;
 }
 
 .continuebtn{

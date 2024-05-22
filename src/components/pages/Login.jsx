@@ -6,7 +6,7 @@ const Login = () => {
   const Login = "Login";
   const SignUp = "Sign Up";
 
-  const [currState, setCurrState] = useState(SignUp);
+  const [currState, setCurrState] = useState(Login);
   return (
     <div>
       <div className="hero1 shadowLogin ">
@@ -29,16 +29,17 @@ const Login = () => {
                   <></>
                 ) : (
                   <>
-                    <input type="text" placeholder="First name" />
-                    <input type="text" placeholder="Last name" />
-                    <input type="password" placeholder="Confrm Password" />
+                    <input type="text" placeholder="First name" required />
+                    <input type="text" placeholder="Last name" required />
+                    <input type="password" placeholder="Confrm Password" required/>
                     <input type="text" placeholder="Referal code" />
                   </>
                 )}
 
-                <input type="text" placeholder="Email" />
-                <input type="Password" placeholder="Password" />
+                <input type="text" placeholder="Email" required />
+                <input type="Password" placeholder="Password" required />
               </div>
+                
 
               <div className="policy">
                 {/* <input className="checkbox" type="checkbox" /> */}
@@ -54,22 +55,50 @@ const Login = () => {
                 </button>
 
                 {currState === Login ? (
-                  <p>
-                    Create new account ?{" "}
-                    <span className="span1" onClick={() => setCurrState(SignUp)}>
-                      Click here!
-                    </span>
-                  </p>
+                  <>
+                    <button className="googlebtn">
+
+                      <i
+                        class="fa-brands fa-google"
+                        style={{ width: "20px", height: "20px" }}
+                      ></i>
+                      Continue with Google
+                    </button>
+                    <button className="facebookbtn">
+                 
+                      <i
+                        class="fa-brands fa-facebook"
+                        style={{ width: "20px", height: "20px" }}
+                      ></i>
+                      Continue with Facebook
+                    </button>
+                    <button className="applebtn">
+                   
+                      <i
+                        class="fa-brands fa-apple"
+                        style={{ width: "20px", height: "20px" }}
+                      ></i>
+                      Continue with Apple
+                    </button>
+                    <p>
+                      Create new account ?{" "}
+                      <span
+                        className="span1"
+                        onClick={() => setCurrState(SignUp)}
+                      >
+                        Click here!
+                      </span>
+                    </p>
+                  </>
                 ) : (
                   <p>
                     Already have an account ?{" "}
-                    <span className="span1" onClick={() => setCurrState(Login)}>Login here</span>
+                    <span className="span1" onClick={() => setCurrState(Login)}>
+                      Login here
+                    </span>
                   </p>
-                  
                 )}
               </div>
-
-
             </form>
           </div>
         </div>
